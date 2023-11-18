@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Favicons-->
+    <link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="src/icons/favicon-32x32.png"
+    />
+    
+    <!--Estilos CSS-->
+    <link rel="stylesheet" href="src/css/styles.css">
+
+     <!--Animanciones CSS CDN-->
+    <link
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <title>Ulises Guzmán | Dev & SysAdmin</title> 
+</head>
+
+<body>
+   <!-- Barra de Navegacion --> 
+   <nav>
+        <h1>Ulises David Guzmán</h1>
+        <ul class="navegacion">
+            <li><a href="#sobremi" class="nav-link">Acerca de Mí</a></li>
+            <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+            <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+            <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+        <!-- <button class="menu-hamburguesa" id="menu-hamburguesa">
+            <ion-icon class="barras" name="menu-outline"></ion-icon>
+        </button> -->
+   </nav>
+
+   <!-- Sección Hero -->
+   <section class="hero" id="sobremi">
+        <img    
+            src="src\images\perfil@.jpg" 
+            alt="ulises-david-guzman"
+            loading="lazy"
+            class="hero-img"
+         />
+
+        <div class="bio animate__animated animate__shakeX" >
+            <h2 class="bio-titulo">Sobre Mí</h2>
+             <p class="bio-texto">
+                 Estoy constantemente Interesado en la Formación sobre el campo de "Administración de Sistemas" y "Programación".
+                 He realizado prácticas en Centro de Datos y Aplicaciones,
+                 que me permitieron desarrollar conocimientos en la industria
+                 y obtener experiencia práctica en soporte y análisis de sistemas.
+                 Soy una persona orientada al Crecimiento y al Desarrollo de Soluciones.
+             </p>
+        </div>
+   </section>
+
+   <!-- Seccion Mas Sobre -->
+   <section class="mas-sobre">
+        <h2>Más Sobre Mí</h2>
+        <p>
+            Actividad que siempre hago, de base, es el Mantenimiento y Administración de equipos Clientes.
+            Logrando un estado Óptimo en su Funcionalidad.
+        </p>
+        <p>
+            Me he capacitado como SysAdmin, Linux Essential y Linux Administrator en CLA, Carrera Linux Argentina. 
+        </p>
+        <p>
+            También Mantengo el Estudio y la Continuidad en la Formación como Dev Full Stack .Net con C#, en maxiprograma.com
+        </p>
+
+        <h4 id="cursos-realizados">
+            Cursos Realizados
+        </h4>
+        <h4 id="tipo-curso-sysadmin">
+            SysAdmin:
+        </h4>  
+        <p id="cursos-sysadmin">
+            &#8226; Operador LSE y Administrador LSE<br />
+        </p>
+
+        <h4 id="tipo-curso-dev">
+            Dev:
+        </h4>   
+        <p id="cursos-dev">
+            &#8226; Fundamentos de la Programación.<br />
+            &#8226; C# Nivel 1. “Desde Cero”<br />
+            &#8226; C# Nivel 2. “POO, Framework .NET, + SQL”<br />
+        <h4>
+            Realizando:
+        </h4>
+        <p>   
+            &#8226; Nivel 3 C#. “Desarrollo Web Microsoft: ASP .NET WebForms”<br />
+        </p>
+   </section>
+
+   <!-- Seccion Habilidades -->
+   <section class="habilidades" id="habilidades">
+        <h2 class="encabezado-habilidades">Mis Mejores Habilidades</h2>
+
+        <div class="contenedor-habilidades">
+            <div class="first-set animate__animated animate__pulse">
+                <img
+                src="src\icons\Icons8_flat_linux.svg.png"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+                />
+
+                <img
+                src="src\icons\terminal-gnome-adwaita.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+                />
+
+                <img
+                src="src\icons\debian-logo.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+                />  
+            </div>
+
+            <div class="second-set animate__animated animate__pulse">
+                <img 
+                src="src\icons\icons8-microsoft.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+                />
+                
+                <img 
+                src="src\icons\Microsoft_.NET_logo.svg.png"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+                />
+
+                <img
+                src="src\icons\icons8-c-sharp-logotipo.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+                />
+            </div>
+                
+            <div class="third-set animate__animated animate__pulse">
+                <img
+                src="src\icons\icons8-html.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+                />
+
+                <img
+                src="src\icons\icons8-css.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+                />
+
+                <img
+                src="src\icons\icons8-js.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+                />
+            </div>
+
+            <div class="fourth-set animate__animated animate__pulse">
+                <img 
+                src="src\icons\icons8-git.svg" 
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+                />
+            </div>
+        </div>
+    </section>
+    <!-- Seccion Proyectos -->
+   <section class="proyectos animate__animated animate__shakeX" id="proyectos">
+        <h2 class="titulo-de-proyectos">Algunos de mis Proyectos Recientes</h2>
+        <div class="contenedor-de-proyectos">
+            <div class="contenedor-de-proyecto tarjeta-de-proyecto">
+                <img 
+                  src="src\images\git-wallpaper1.png"
+                  alt="proyectos-en-git"
+                  loading="lazy"
+                  class="foto-proyecto"
+                />
+                <h3 class="titulo-de-proyecto">Proyectos en Git</h3>
+                <p class="detalle-de-proyecto">
+                    Aquí hay Código Propio subido a Git, encontrarás desde Prácticas de Ejercicios hasta Proyectos Finales.
+                </p>
+                <a href="https://github.com/Ulises-Guzman" target="_blank" class="enlace-de-proyecto">Ver Aquí!</a>
+            </div>
+        </div>
+   </section>
+
+    <!-- Seccion Contacto -->   
+   <section class="contacto" id="contacto">
+        <h2>Contáctame</h2>
+        <div class="contenedor-formulario-contacto">
+            <div class="formulario-contacto">
+               <form action="https://formspree.io/f/xleybyjg" method="POST">
+                    <div class="control-formulario">
+                        <label for="name">Nombre</label>
+                        <input 
+                          type="text"
+                          id="name"
+                          name="sender-name"
+                          placeholder="Escribe tu Nombre"
+                          class="input-field"
+                          required
+                        >
+                    </div>
+                    <div class="control-formulario">
+                        <label for="email">Correo Eletrónico</label>
+                        <input
+                          type="email"
+                          id="email"
+                          name="sender-email"
+                          placeholder="Ingresa tu Correo Electrónico"
+                          class="input-field"
+                          required
+                        >
+                    </div>
+                    <div class="control-formulario">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea
+                          name="mensaje"
+                          id="mensaje"
+                          cols="60" 
+                          rows="10"
+                          placeholder="Escribe tu Mensaje"
+                          class="input-field"
+                          required
+                        ></textarea>
+                    </div>
+                    <input
+                     type="submit"
+                     value="Enviar"
+                     id="submit-btn"
+                     class="submit-btn"
+                    >
+               </form> 
+            </div>
+        </div>
+   </section>
+
+   <!-- Ir hacia arriba -->    
+   <i class="ir-arriba" id="ir-arriba">
+    <img 
+        src="src\icons\icons8-flecha-arriba-48.png"
+        class="socicon flecha-arriba"
+        alt="ir-arriba"
+    >
+   </i>
+
+   <!-- Seccion Footer -->
+    <footer>
+        <p class="copy">&copy; 2023</p>
+        <p id="rebuilt">
+            rebuilt by Ulises Guzmán
+        </p>
+        <p id="built">
+            built by Kolade Chris (Ksound)
+        </p>
+    </footer>
+
+
+   <!-- Website scripts -->
+   <script src="src/js/app.js"></script>
+
+   <!-- Ion icons scripts -->
+    <script
+        type="module"
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">
+    </script>
+    <script
+        nomodule
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js">
+    </script>
+</body>
+</html>
